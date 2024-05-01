@@ -1,0 +1,51 @@
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.buttonmain{
+text-align: center;
+
+}
+
+.display-button{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(images/Polecja2.gif);
+    height: 1140px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: #041562;
+    background-color: #EEEDED;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.page{
+    background-color: #FFFAE7;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 16px;
+}
+
+li{
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    list-style-type: decimal;
+    padding: 25px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}

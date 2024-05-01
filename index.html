@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<title>Zeszt do Bazy Danych</title>
+</head>
+<body>
+    <div class="heading">
+    <h1 id="idH1">Zeszyt <br> z Bazy Danych</h1>
+</div>
+<div class="page">
+</div>
+<div class="center-punk1">
+    <div><p class="punk1"> <a class="linkwhite" href="Bazy Danych poczontek.html">06.09.2023 - Bazy Danych Początek</a></p></div>
+  </div>
+  <div class="center-punk">
+    <div><p class="punk3"> <a href="sqlpoczantek.html">11.09.2023 - SQL</a></p></div>
+    <div><p class="punk4"> <a href="noSQLpoczantek.html">11.09.2023 - noSQL</a></p></div>
+  </div>
+  <div class="center-punk1">
+   <button id="idButton"> Naciśnij Mnie </button>
+  </div>
+  <div class="center-punk">
+    <div><p class="punk5"> <a href="rbdpoczontek.html">13.09.2023 - Relacje w bazie danych</a></p></div>
+    <div><p class="punk6"> <a href="RDBMSpoczontek.html">13.09.2023 - Relational database management system</a></p></div>
+  </div>
+  <div class="center-punk1">
+    <div><p class="punk8"> <a  href="pojęciazzakresu.html">10.10.2023 - Pojęcia z zakresu: Relacyjne Bazy Danych</a></p></div>
+  </div>
+  <script>
+    // let, const,var
+    function dodawanie(a ,b){
+        console.log(a+b);
+    }
+    dodawanie(2,3);
+    
+    let zmiennaBaton = document.getElementById("idButton");
+     console.log(zmiennaBaton);
+    // let zmiennaBatonHtml = dokument.getElementById("idButton").innerHtml
+    let h1Id = document.getElementById("idH1");
+    zmiennaBaton.addEventListener('click', zmienH1);
+    
+    let flag = 0;
+    
+    function zmienH1(){
+        h1Id.innerHTML = "Sprawdź notatnik! Let's go !";
+        h1Id.style.color = "Aqua";
+        h1Id.style.fontFamily = "Arial";
+    }
+  
+    
+function zmienH1(){
+// console.log("Sprawdzam!")
+if (flag == 0) {
+  h1Id.innerHTML = "Sprawdź notatnik! Let's go !";
+        h1Id.style.color = "Aqua";
+        h1Id.style.fontFamily = "Arial";
+    flag = 1;
+} else {
+  h1Id.innerHTML = "Thanks for watching";
+        h1Id.style.color = "yellow";
+        h1Id.style.fontFamily = "Georgia";
+    flag = 0;
+}
+
+}
+    
+        </script>
+
+</body>
+</html>

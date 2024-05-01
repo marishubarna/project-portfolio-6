@@ -1,0 +1,273 @@
+a{
+    text-decoration: none;
+    color:#032D3C;
+}
+
+button{
+  background-image: linear-gradient(
+  140deg,
+  hsl(158deg 55% 78%) 0%,
+  hsl(144deg 53% 81%) 26%,
+  hsl(122deg 49% 84%) 38%,
+  hsl(97deg 53% 84%) 47%,
+  hsl(74deg 53% 83%) 54%,
+  hsl(51deg 57% 82%) 61%,
+  hsl(37deg 77% 83%) 67%,
+  hsl(27deg 95% 85%) 73%,
+  hsl(21deg 100% 85%) 79%,
+  hsl(16deg 100% 83%) 85%,
+  hsl(10deg 100% 83%) 92%,
+  hsl(3deg 100% 82%) 100%
+);
+  height: 40px;
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body{
+  background-color: #F7FBFC;
+  background-image: url(images/main1.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  margin: 0;
+}
+
+
+
+.center-punk{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.center-punk1{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+    color: #FFFBF3;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 80px;
+
+}
+
+.heading{
+    margin: 0;
+}
+
+.linkwhite{
+    color: #E5F4E7;
+    text-decoration: none;
+}
+
+
+.page{
+
+    padding: 15px;
+    border-top: 4px solid #B9D7EA;
+}
+
+.punk1{ 
+    background-image: linear-gradient(
+  145deg,
+  hsl(245deg 21% 12%) 0%,
+  hsl(244deg 35% 27%) 30%,
+  hsl(247deg 41% 42%) 45%,
+  hsl(251deg 61% 58%) 55%,
+  hsl(259deg 100% 69%) 62%,
+  hsl(268deg 99% 71%) 69%,
+  hsl(276deg 99% 73%) 74%,
+  hsl(284deg 100% 75%) 80%,
+  hsl(289deg 99% 77%) 85%,
+  hsl(293deg 97% 78%) 90%,
+  hsl(297deg 96% 80%) 95%,
+  hsl(301deg 100% 82%) 100%
+);
+    padding: 10px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #3F0713;
+}
+
+.punk2{ 
+    background-image: linear-gradient(
+  145deg,
+  hsl(0deg 55% 74%) 0%,
+  hsl(351deg 45% 68%) 13%,
+  hsl(342deg 36% 62%) 22%,
+  hsl(332deg 29% 56%) 30%,
+  hsl(320deg 23% 50%) 38%,
+  hsl(304deg 23% 43%) 45%,
+  hsl(284deg 26% 39%) 52%,
+  hsl(264deg 31% 36%) 60%,
+  hsl(268deg 33% 31%) 68%,
+  hsl(283deg 33% 26%) 77%,
+  hsl(298deg 33% 21%) 87%,
+  hsl(312deg 37% 18%) 100%
+);
+    padding: 10px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #3F0713;
+    color: #E5F4E7;
+}
+
+
+.punk3{
+    background-image: linear-gradient(
+        145deg,
+        hsl(47deg 47% 96%) 0%,
+        hsl(47deg 73% 93%) 13%,
+        hsl(47deg 82% 89%) 22%,
+        hsl(47deg 86% 86%) 30%,
+        hsl(46deg 84% 82%) 38%,
+        hsl(43deg 77% 78%) 45%,
+        hsl(40deg 72% 73%) 52%,
+        hsl(38deg 69% 69%) 60%,
+        hsl(37deg 65% 64%) 68%,
+        hsl(35deg 60% 60%) 77%,
+        hsl(34deg 57% 56%) 87%,
+        hsl(33deg 53% 51%) 100%
+      );
+    padding: 10px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #3F0713;
+    color: black;
+}
+
+.punk4{
+    background-image: linear-gradient(
+  145deg,
+  hsl(157deg 74% 52%) 0%,
+  hsl(152deg 73% 61%) 13%,
+  hsl(149deg 74% 68%) 22%,
+  hsl(146deg 76% 74%) 30%,
+  hsl(141deg 78% 79%) 38%,
+  hsl(132deg 76% 83%) 45%,
+  hsl(120deg 72% 86%) 52%,
+  hsl(108deg 73% 87%) 60%,
+  hsl(95deg 73% 87%) 68%,
+  hsl(83deg 71% 88%) 77%,
+  hsl(72deg 70% 89%) 87%,
+  hsl(62deg 69% 90%) 100%
+);
+padding: 10px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #3F0713;
+    color: black;
+}
+
+.punk5{
+  background-image: linear-gradient(
+  180deg,
+  hsl(326deg 85% 87%) 0%,
+  hsl(314deg 68% 83%) 16%,
+  hsl(298deg 55% 80%) 28%,
+  hsl(280deg 66% 80%) 37%,
+  hsl(254deg 85% 82%) 46%,
+  hsl(217deg 100% 78%) 54%,
+  hsl(202deg 100% 70%) 62%,
+  hsl(192deg 83% 64%) 69%,
+  hsl(188deg 71% 61%) 77%,
+  hsl(187deg 66% 57%) 84%,
+  hsl(186deg 61% 54%) 92%,
+  hsl(185deg 57% 50%) 100%
+);
+padding: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #3F0713;
+  color: black;
+}
+
+.punk6{
+  background-image: linear-gradient(
+  180deg,
+  hsl(39deg 100% 72%) 0%,
+  hsl(41deg 96% 77%) 11%,
+  hsl(45deg 93% 83%) 20%,
+  hsl(48deg 93% 89%) 29%,
+  hsl(66deg 65% 91%) 37%,
+  hsl(124deg 44% 87%) 45%,
+  hsl(166deg 46% 78%) 54%,
+  hsl(187deg 50% 72%) 62%,
+  hsl(194deg 47% 64%) 71%,
+  hsl(198deg 40% 54%) 80%,
+  hsl(200deg 45% 44%) 89%,
+  hsl(202deg 61% 34%) 100%
+);
+padding: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #3F0713;
+  color: black;
+}
+
+.punk7{
+  background-image: linear-gradient(
+  145deg,
+  hsl(48deg 90% 84%) 0%,
+  hsl(35deg 100% 84%) 7%,
+  hsl(22deg 100% 86%) 15%,
+  hsl(1deg 100% 89%) 25%,
+  hsl(336deg 100% 87%) 35%,
+  hsl(313deg 81% 86%) 47%,
+  hsl(298deg 60% 79%) 58%,
+  hsl(281deg 66% 76%) 70%,
+  hsl(266deg 72% 73%) 81%,
+  hsl(249deg 78% 71%) 91%,
+  hsl(228deg 86% 64%) 100%
+);
+padding: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #3F0713;
+  color: #072541;
+}
+
+.punk8{
+  background-image: linear-gradient(
+    210deg,
+    hsl(180deg 29% 97%) 0%,
+    hsl(181deg 48% 94%) 11%,
+    hsl(182deg 56% 92%) 20%,
+    hsl(183deg 62% 89%) 29%,
+    hsl(183deg 66% 87%) 37%,
+    hsl(184deg 69% 85%) 45%,
+    hsl(185deg 73% 83%) 54%,
+    hsl(186deg 76% 81%) 62%,
+    hsl(186deg 55% 78%) 71%,
+    hsl(186deg 30% 74%) 80%,
+    hsl(186deg 13% 71%) 89%,
+    hsl(0deg 0% 67%) 100%
+  );
+padding: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #3F0713;
+  color: #141E46;
+}

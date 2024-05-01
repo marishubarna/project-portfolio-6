@@ -1,0 +1,115 @@
+a{
+    font-family: 'Handjet', sans-serif;
+    background-image: linear-gradient(
+  135deg,
+  hsl(212deg 100% 50%) 0%,
+  hsl(203deg 100% 50%) 12%,
+  hsl(197deg 100% 50%) 20%,
+  hsl(184deg 100% 43%) 28%,
+  hsl(168deg 100% 43%) 34%,
+  hsl(149deg 74% 60%) 40%,
+  hsl(122deg 74% 72%) 46%,
+  hsl(93deg 83% 72%) 52%,
+  hsl(73deg 90% 71%) 58%,
+  hsl(54deg 96% 68%) 64%,
+  hsl(41deg 100% 62%) 71%,
+  hsl(27deg 100% 61%) 79%,
+  hsl(7deg 100% 64%) 88%,
+  hsl(337deg 100% 50%) 100%
+);
+    text-decoration: none;
+    font-size: 25px;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    
+}
+
+.buttonmain{
+text-align: center;
+}
+
+.display-button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+   margin: 0;
+   background-color: black;
+}
+
+.center1{
+    border: 4px solid #214151;
+    margin: 50px;
+}
+
+.central-images{
+    background-image: url(images/RBDMS8.gif);
+   height: 500px;
+    opacity: 0.4; 
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Handjet', sans-serif;
+    background-image: linear-gradient(
+  135deg,
+  hsl(212deg 100% 50%) 0%,
+  hsl(203deg 100% 50%) 12%,
+  hsl(197deg 100% 50%) 20%,
+  hsl(184deg 100% 43%) 28%,
+  hsl(168deg 100% 43%) 34%,
+  hsl(149deg 74% 60%) 40%,
+  hsl(122deg 74% 72%) 46%,
+  hsl(93deg 83% 72%) 52%,
+  hsl(73deg 90% 71%) 58%,
+  hsl(54deg 96% 68%) 64%,
+  hsl(41deg 100% 62%) 71%,
+  hsl(27deg 100% 61%) 79%,
+  hsl(7deg 100% 64%) 88%,
+  hsl(337deg 100% 50%) 100%
+);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+p{
+    font-size: 23px;
+    margin-right: 190px;
+   margin-left: 190px;
+   color: beige;
+}
+
+em{
+    font-size: 20px;
+    color: #F7EA00;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+    text-align: left;
+    color: aliceblue;
+    font-size: 23px;
+}
+
+ul{
+    padding-left:190px;
+    padding-right: 190px;
+}
